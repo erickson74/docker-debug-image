@@ -16,6 +16,7 @@ RUN apk --no-cache add \
     strace \
     vim \
     nodejs \
+    nodejs-npm \
     && npm install newman --global \
     less
 
