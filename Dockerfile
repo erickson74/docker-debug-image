@@ -16,7 +16,7 @@ RUN apk --no-cache add \
     strace \
     vim \
     nodejs \
-    newman \
+    && npm install newman --global \
     less
 
 CMD ["/bin/sh"]
