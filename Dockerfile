@@ -15,6 +15,8 @@ RUN apk --no-cache add \
     postgresql-client \
     strace \
     vim \
+    nodejs \
+    newman \
     less
 
 CMD ["/bin/sh"]
